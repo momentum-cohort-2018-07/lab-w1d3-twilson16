@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #F5F5F5;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 800px;
+  font-family: Open Sans, "Oswald";
+  background-color: #FFFFFF;
+}
+
+.site-header {
+  background-color: mediumblue;
+  color: white;
+  padding: 30px 20px 20px 25px;
+  
+}
+
+header {
+  width: 100%;
+  border-bottom: 3px solid lightblue;
+}
+
+.search {
+  background-color: lightgray;
+  justify-content: center;
+  padding: 15px 10px;
+  margin: 5px;
+}
+
+.search__form {
+  background-color: lightgray;
+  max-width: 100%
+}
+
+.search__choice {
+  display: inline-block;
+  background-color: lightgray;
+  padding: 10px 30px 10px 30px;
+  max-width: 35%;
+  vertical-align: top;
+}
+
+.container {
+  padding: 20px;
+  line-height: 2; 
+}
+
+.search__choice label {
+  display: block;
+ 
+}
+
+h2 {
+  padding: 0px 0px 0px 10px;
+}
+
+p {
+  padding: 0px 0px 0px 10px;
+}
+
+.animal {
+  display: inline-block;
+  max-width: 31.5%;
+  clear: both;
+  vertical-align: top;
+  padding: 5px 5px 5px 5px;
+  margin: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.animal__name {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: justify;
+  font-family: "Oswald", sans;
+}
+
+span {
+  background-color: #00BFFF;
+  border-radius: 10px;
+  white-space: nowrap;
+  padding: 0px 10px;
+}
+
+footer {
+  max-width: 100%;
+  text-align: center;
+}
+
+.footer__block--donate {
+  background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137);
+  width: 33.3%;
+  height: 200px;
+  background-size: cover;
+  float: left;
+}
+
+.footer__block--volunteer {
+  background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718);
+  width: 33.3%;
+  height: 200px;
+  background-size: cover;
+  float: left;
+}
+
+.footer__block--location {
+  background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805);
+ 
+  width: 33.3%;
+  height: 200px;
+  background-size: cover;
+  float: left;
+}
+
+.footer__block--donate:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137);
+}
+
+.footer__block--volunteer:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718)
+}
+
+.footer__block--location:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805);
+}
+
+footer a {
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 30px;
+  top: 40%;
+  text-decoration: none;
+  font-family: "Oswald", sans;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 
+<footer class="footer">
+      <div class="footer__block footer__block--donate">
+        <a href="#">Donate</a>
+      </div>
+      <div class="footer__block footer__block--volunteer">
+        <a href="#">Volunteer</a>
+      </div>
+      <div class="footer__block footer__block--location">
+        <a href="#">Our location</a>
+      </div>
+    </footer> */
+
+
+
+/* example:  */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FFC0CB;
+}
+
+body {
+  background-color: #FFFFFF;
+  max-width: 1024px;
+  margin: 0 auto; 
+}
+
+.header {
+  background-color: #275DAD;
+  margin: 10px;
+  color: #FCF7F8;
+  padding: 10px 20px;
+}
+
+img  {
+  max-width: 100%;
+ }
+
+.sidebar {
+  background-color: #394648;
+  float: left;
+  width: 33%;
+  padding: 10px;
+  color: white;
+}
+
+.sidebar a {
+  color: white;
+}
+
+.main {
+  width: 67%;
+  float: left;
+  padding: 10px;
+  background-color: #BDD9BF;
+}
+
+.vertical-menu {
+  list-style: none; 
+ 
+}
+
+.sidebar a {
+  text-decoration: underline;
+  
+}
+
+.main p {
+  margin-bottom: 1rem;
+  
+}
+
+.footer {
+  padding: 10px;
+  clear: both;
+  background-color: #275DAD;
+  margin-bottom: 10px;
+  color: #FCF7F8;
+}
+
+.plant {
+  margin: 10px 0 40px 0;
+  overflow: auto;
+}
+
+.plant__image {
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 200px;
+  float: right;
+/* can alternatively use inline block - line in row and wrap */
+
+/* display: inline-block; */
+/*   vertical-align: top; */
+/* }
+   */ 
+  

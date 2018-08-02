@@ -1,0 +1,99 @@
+
+
+header {
+  font-size: 40px;
+  margin: 0 auto;
+  color: purple;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+/*   display: inline; */
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.nav {
+/*   margin: 10px 15px 10px 15px; */
+  display: inline;
+  padding: 10px 15px 10px 15px;
+  text-align: justify;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0A090C;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color:	#B0E0E6;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 10px 15px 10px;
+  color: purple;
+}
+
+h3 {
+  justify-content: flex-end;
+  align-content: flex-end;
+
+}
+
+p {
+  text-align: justify;
+}
+  
+
+/* .subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+} */
+
+.store-image {
+  width: 500px;
+  border-width: 1px;
+  border-color: #0A090C;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*   border-radius: 50%; */
+}
+
+.vine {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.flower {
+  display: block;
+  height: 350px;
+}
+
+.flowerPic {
+  float: left;
+  width: 48%;
+  display: block;
+  height: auto;
+}
+
+.flowerText {
+  float: right;
+  width: 48%;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: 300px;
+}
